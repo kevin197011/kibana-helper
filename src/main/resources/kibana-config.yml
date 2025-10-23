@@ -1,0 +1,22 @@
+kibana:
+  baseUrl: "https://kibana.devops.com"
+  username: "elastic"
+  password: "xxxxxxxx"
+
+project:
+  name: "p01"
+  environment: "prod"
+
+
+# 可选配置
+settings:
+  # 是否在启动时自动创建空间
+  autoCreateSpace: true
+  # 是否自动添加索引
+  autoAddIndices: true
+  # 是否自动创建角色
+  autoCreateRole: true
+  # 是否自动创建用户
+  autoCreateUser: true
+  # 是否显示详细的索引匹配信息
+  showDetailedMatching: true
